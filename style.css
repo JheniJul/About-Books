@@ -1,0 +1,83 @@
+body{
+    background-color: #eadab0; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    padding: 0px;
+    margin: 0px;
+}
+.cabeca{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    background-color: #662d1a;
+}
+
+h1{
+    color:#c8a569;
+    font-size: 50px;
+}
+nav {
+    background-color: #c8a569;
+    display: flex;
+    padding: 12px;
+    justify-content: flex-end;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+nav a {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 15px 10px;
+}
+nav a:hover{
+    background-color: whitesmoke;
+    color:#662d1a;
+}
+
+.container{
+    margin: -16px 0;
+}
+
+.intro{
+    height: 350px;
+    margin: 0 10%;
+    margin-top: 10%;
+    text-align: justify;
+    font-size: 17px;
+}
+
+.livros{
+    display: flex;
+    background-color: #662d1a;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    
+}
+.livros ul li{
+    list-style-type:decimal;
+    padding: 10px;
+    color:#eadab0;
+}
+.livros .esquerda{
+    float: left;  
+    padding: 0 130px;
+}
+
+.livros .direita{
+    float: right;
+    padding: 0 140px;
+
+}
+.livros .direita img{
+    border: 2px solid #c8a569;
+}
